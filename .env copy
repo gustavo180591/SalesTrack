@@ -1,0 +1,2 @@
+DATABASE_URL="postgresql://postgres:postgres@localhost:5444/salestrack"
+GITHUB_TOKEN=your_github_token_here
