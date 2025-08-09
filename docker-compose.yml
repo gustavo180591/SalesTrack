@@ -5,10 +5,10 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "3000:3000"
-      - "5555:5555"
+      - "3009:3000"
+      - "5564:5555"
     environment:
-      - DATABASE_URL=postgresql://postgres:postgres@db:5432/salestrack
+      - DATABASE_URL=postgresql://postgres:postgres@db:5444/salestrack
     depends_on:
       - db
     volumes:
